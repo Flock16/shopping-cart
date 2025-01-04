@@ -69,6 +69,8 @@ export const Cart = () => {
                   <td>
                     <input
                       type="number"
+                      inputMode="numeric"
+                      pattern="[0-9]*"
                       min={0}
                       defaultValue={item.quantity}
                       onChange={(event) => {

@@ -49,6 +49,8 @@ export const ProductShopCard = ({ item, cart, setCart }) => {
           defaultValue={0}
           min={0}
           type="number"
+          inputMode="numeric"
+          pattern="[0-9]*"
           onChange={(event) => {
             handleInputChange(event);
           }}
