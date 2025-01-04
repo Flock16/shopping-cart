@@ -1,0 +1,90 @@
+.header {
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  color: var(--fourth-color);
+  font-size: 1.8rem;
+}
+
+.tableContainer {
+  background-color: var(--second-color);
+  display: flex;
+  justify-content: center;
+  margin: 20px 50px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+.tableContainer th {
+  font-size: 1.3rem;
+  color: var(--fourth-color);
+  text-align: left;
+}
+
+.tableRow {
+  background-color: var(--main-bg-color);
+
+  color: var(--fourth-color);
+}
+
+.tableContainer th {
+  padding-bottom: 5px;
+  padding-right: 15px;
+}
+
+.tableRow td {
+  padding: 20px;
+}
+
+.tableRow td:nth-child(4),
+.tableRow td:last-child {
+  text-align: center;
+}
+
+.tableRow td img {
+  height: 100px;
+  width: 100px;
+}
+
+.tableRow td input {
+  width: 60px;
+  text-align: center;
+}
+
+.tableRow td button {
+  background-color: var(--second-color);
+  color: var(--fourth-color);
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+}
+
+.tableRow td button:hover {
+  background-color: var(--fourth-color);
+  color: var(--second-color);
+}
+
+@media (max-width: 650px) {
+  .tableContainer {
+    margin: 5px;
+  }
+
+  .tableContainer th {
+    text-align: center;
+    padding-right: 0px;
+  }
+
+  .tableRow td img {
+    height: 60px;
+    width: 60px;
+  }
+
+  .tableRow td input {
+    width: 40px;
+    text-align: center;
+  }
+}

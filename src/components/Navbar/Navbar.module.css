@@ -1,0 +1,20 @@
+.navContainer {
+  background-color: var(--second-color);
+  padding: 10px 30px 10px 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navContainer > h1 {
+  color: var(--fourth-color);
+}
+
+ul {
+  font-size: 1.2rem;
+  color: var(--fourth-color);
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}

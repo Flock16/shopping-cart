@@ -1,0 +1,27 @@
+:root {
+  --main-bg-color: #222831;
+  --second-color: #393e46;
+  --third-color: #f96d00;
+  --fourth-color: #f2f2f2;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  /* height: 100vh; */
+}
+
+a {
+  text-decoration: none;
+  font-weight: normal;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
