@@ -69,6 +69,10 @@ table {
 }
 
 @media (max-width: 650px) {
+  .header {
+    font-size: 1.2rem;
+  }
+
   .tableContainer {
     margin: 5px;
   }

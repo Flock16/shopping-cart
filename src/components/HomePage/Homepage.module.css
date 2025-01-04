@@ -1,6 +1,4 @@
 .homePageContainer {
-  /* background-color: var(--main-bg-color); */
-  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   gap: 200px;
@@ -33,5 +31,9 @@
 @media (max-width: 600px) {
   .homePageContainer {
     gap: 20px;
+  }
+
+  .midSection {
+    font-size: 1.2rem;
   }
 }
