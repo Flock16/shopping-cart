@@ -53,14 +53,19 @@ export const Cart = () => {
               <th>Item</th>
               <th>Quantity</th>
               <th>Price</th>
-              <th>Image</th>
+              {/* <th>Image</th> */}
             </tr>
           </thead>
           <tbody>
             {cart.map((item, index) => {
               return (
                 <tr key={index} className={styles.tableRow}>
-                  <td>{item.title}</td>
+                  <td>
+                    {item.title}
+                    <br></br>
+                    <br></br>
+                    <img src={item.image}></img>
+                  </td>
                   <td>
                     <input
                       type="number"
@@ -72,9 +77,9 @@ export const Cart = () => {
                     />
                   </td>
                   <td>${item.quantity * item.price}</td>
-                  <td>
+                  {/* <td>
                     <img src={item.image}></img>
-                  </td>
+                  </td> */}
                   <td>
                     <button onClick={() => handleRemoveItem(item)}>X</button>
                   </td>
@@ -85,7 +90,7 @@ export const Cart = () => {
               <td></td>
               <td></td>
               <td></td>
-              <td></td>
+              {/* <td></td> */}
               <td>Total: ${cartTotal}</td>
             </tr>
           </tbody>
