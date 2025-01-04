@@ -5,7 +5,7 @@ import "./index.css";
 import Homepage from "./components/HomePage/Homepage.jsx";
 import { Shop } from "./components/Shop/Shop.jsx";
 import { Cart } from "./components/Cart/Cart.jsx";
-import App from "./App.jsx";
+import App from "./app.jsx";
 
 const router = createBrowserRouter([
   {
