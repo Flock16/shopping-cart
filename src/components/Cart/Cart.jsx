@@ -89,9 +89,9 @@ export const Cart = () => {
             <tr className={styles.tableRow}>
               <td></td>
               <td></td>
-              <td></td>
-              {/* <td></td> */}
               <td>Total: ${cartTotal}</td>
+              {/* <td></td> */}
+              <td></td>
             </tr>
           </tbody>
         </table>
