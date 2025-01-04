@@ -81,7 +81,8 @@ table {
   }
 
   .tableContainer {
-    margin: 5px;
+    margin: 0px;
+    padding: 10px 1px;
   }
 
   .tableContainer th {
